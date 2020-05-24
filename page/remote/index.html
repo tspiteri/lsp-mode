@@ -9,19 +9,19 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <link rel="canonical" href="https://emacs-lsp.github.io/lsp-mode/page/features/">
+        <link rel="canonical" href="https://emacs-lsp.github.io/lsp-mode/page/remote/">
       
       
       <link rel="shortcut icon" href="../../examples/logo-mini.png">
-      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.5">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.2.1">
     
     
       
-        <title>Features - LSP Mode</title>
+        <title>Remote - LSP Mode - Language Server Protocol Support for Emacs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.df84b5fe.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.71dfd922.min.css">
       
       
     
@@ -36,6 +36,8 @@
     
     
       <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/members.css">
     
     
       
@@ -57,7 +59,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#features" class="md-skip">
+        <a href="#remote" class="md-skip">
           Skip to content
         </a>
       
@@ -68,7 +70,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="https://emacs-lsp.github.io/lsp-mode" title="LSP Mode" class="md-header-nav__button md-logo" aria-label="LSP Mode">
+    <a href="https://emacs-lsp.github.io/lsp-mode" title="LSP Mode - Language Server Protocol Support for Emacs" class="md-header-nav__button md-logo" aria-label="LSP Mode - Language Server Protocol Support for Emacs">
       
   <img src="../../examples/logo-mini.png" alt="logo">
 
@@ -80,11 +82,11 @@
       
         <div class="md-header-nav__ellipsis">
           <span class="md-header-nav__topic md-ellipsis">
-            LSP Mode
+            LSP Mode - Language Server Protocol Support for Emacs
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Features
+              Remote
             
           </span>
         </div>
@@ -153,22 +155,17 @@
     <ul class="md-tabs__list">
       
         
-  <li class="md-tabs__item">
-    
-      <a href="../.." class="md-tabs__link">
-        Home
-      </a>
-    
-  </li>
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../.." class="md-tabs__link md-tabs__link--active">
+          Home
+        </a>
+      
+    </li>
+  
 
-      
-        
-      
-        
-      
-        
-      
-        
       
         
   
@@ -188,8 +185,8 @@
   
     <li class="md-tabs__item">
       
-        <a href="./" class="md-tabs__link md-tabs__link--active">
-          Features
+        <a href="https://emacs-lsp.github.io/dap-mode" class="md-tabs__link">
+          Debugging
         </a>
       
     </li>
@@ -236,12 +233,12 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://emacs-lsp.github.io/lsp-mode" title="LSP Mode" class="md-nav__button md-logo" aria-label="LSP Mode">
+    <a href="https://emacs-lsp.github.io/lsp-mode" title="LSP Mode - Language Server Protocol Support for Emacs" class="md-nav__button md-logo" aria-label="LSP Mode - Language Server Protocol Support for Emacs">
       
   <img src="../../examples/logo-mini.png" alt="logo">
 
     </a>
-    LSP Mode
+    LSP Mode - Language Server Protocol Support for Emacs
   </label>
   
     <div class="md-nav__source">
@@ -263,17 +260,69 @@
       
       
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      Home
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Home" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Home
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
 
   <li class="md-nav__item">
-    <a href="../.." title="Home" class="md-nav__link">
-      Home
+    <a href="../.." title="Overview" class="md-nav__link">
+      Overview
     </a>
   </li>
 
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
     
-      
-      
-      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-2" type="checkbox" id="nav-1-2">
+    
+    <label class="md-nav__link" for="nav-1-2">
+      Setup
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Setup" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Setup
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
 
 
   <li class="md-nav__item">
@@ -282,10 +331,63 @@
     </a>
   </li>
 
-    
-      
-      
-      
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../configuration/" title="Configuration" class="md-nav__link">
+      Configuration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../performance/" title="Perfomance" class="md-nav__link">
+      Perfomance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../additional-settings/" title="Additional settings" class="md-nav__link">
+      Additional settings
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../settings/" title="Settings" class="md-nav__link">
+      Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
 
 
   <li class="md-nav__item">
@@ -294,10 +396,176 @@
     </a>
   </li>
 
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-5" type="checkbox" id="nav-1-5">
+    
+    <label class="md-nav__link" for="nav-1-5">
+      Extensions
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Extensions" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://emacs-lsp.github.io/lsp-ui" title="UI" class="md-nav__link">
+      UI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/emacs-lsp/lsp-treemacs" title="Treemacs" class="md-nav__link">
+      Treemacs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/emacs-lsp/helm-lsp" title="Helm" class="md-nav__link">
+      Helm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://github.com/emacs-lsp/lsp-ivy" title="Ivy" class="md-nav__link">
+      Ivy
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
     
       
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Remote
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Remote" class="md-nav__link md-nav__link--active">
+      Remote
+    </a>
+    
       
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
       
+        <li class="md-nav__item">
+  <a href="#tramp" class="md-nav__link">
+    TRAMP
+  </a>
+  
+    <nav class="md-nav" aria-label="TRAMP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work" class="md-nav__link">
+    How does it work?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-configuration" class="md-nav__link">
+    Sample configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dealing-with-stderr" class="md-nav__link">
+    Dealing with stderr
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
 
 
   <li class="md-nav__item">
@@ -306,16 +574,33 @@
     </a>
   </li>
 
-    
-      
-      
-      
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../troubleshooting/" title="Troubleshooting" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+        
+          
+          
+          
 
 
   <li class="md-nav__item">
     <a href="../adding-new-language/" title="Adding new language" class="md-nav__link">
       Adding new language
     </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -326,16 +611,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
     
-    <label class="md-nav__link" for="nav-6">
+    <label class="md-nav__link" for="nav-2">
       Languages
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Languages" data-md-level="1">
-      <label class="md-nav__title" for="nav-6">
+      <label class="md-nav__title" for="nav-2">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -374,18 +659,6 @@
 
 
   <li class="md-nav__item">
-    <a href="https://emacs-lsp.github.io/lsp-sourcekit" title="Apple Sourcekit" class="md-nav__link">
-      Apple Sourcekit
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
     <a href="../lsp-angular/" title="Angular" class="md-nav__link">
       Angular
     </a>
@@ -410,8 +683,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-ccls/" title="C++(ccls)" class="md-nav__link">
-      C++(ccls)
+    <a href="../lsp-ccls/" title="C++ (ccls)" class="md-nav__link">
+      C++ (ccls)
     </a>
   </li>
 
@@ -422,20 +695,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-clangd/" title="C++(clangd)" class="md-nav__link">
-      C++(clangd)
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../lsp-cquery/" title="C++(cquery)" class="md-nav__link">
-      C++(cquery)
+    <a href="../lsp-clangd/" title="C++ (clangd)" class="md-nav__link">
+      C++ (clangd)
     </a>
   </li>
 
@@ -542,20 +803,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-elixir/" title="Elixir(elixir-ls)" class="md-nav__link">
-      Elixir(elixir-ls)
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../lsp-elixir-ls/" title="Elixir(JakeBecker)" class="md-nav__link">
-      Elixir(JakeBecker)
+    <a href="../lsp-elixir/" title="Elixir" class="md-nav__link">
+      Elixir
     </a>
   </li>
 
@@ -626,8 +875,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-gopls/" title="Go(gopls)" class="md-nav__link">
-      Go(gopls)
+    <a href="../lsp-gopls/" title="Go (gopls)" class="md-nav__link">
+      Go (gopls)
     </a>
   </li>
 
@@ -638,8 +887,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-bingo/" title="Go(bingo)" class="md-nav__link">
-      Go(bingo)
+    <a href="../lsp-bingo/" title="Go (bingo)" class="md-nav__link">
+      Go (bingo)
     </a>
   </li>
 
@@ -722,8 +971,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-typescript/" title="JavaScript/TypeScript(sourcegraph)" class="md-nav__link">
-      JavaScript/TypeScript(sourcegraph)
+    <a href="../lsp-typescript-javascript/" title="JavaScript/TypeScript (sourcegraph)" class="md-nav__link">
+      JavaScript/TypeScript (sourcegraph)
     </a>
   </li>
 
@@ -734,8 +983,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-typescript-javascript/" title="JavaScript/TypeScript(theia-ide)" class="md-nav__link">
-      JavaScript/TypeScript(theia-ide)
+    <a href="../lsp-typescript/" title="JavaScript/TypeScript (theia-ide)" class="md-nav__link">
+      JavaScript/TypeScript (theia-ide)
     </a>
   </li>
 
@@ -818,8 +1067,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-ocaml/" title="OCaml(ocaml)" class="md-nav__link">
-      OCaml(ocaml)
+    <a href="../lsp-ocaml/" title="OCaml (ocaml)" class="md-nav__link">
+      OCaml (ocaml)
     </a>
   </li>
 
@@ -830,8 +1079,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-ocalm-lsp-server/" title="OCaml(icaml-lsp)" class="md-nav__link">
-      OCaml(icaml-lsp)
+    <a href="../lsp-ocalm-lsp-server/" title="OCaml (icaml-lsp)" class="md-nav__link">
+      OCaml (icaml-lsp)
     </a>
   </li>
 
@@ -866,8 +1115,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-intelephense/" title="PHP(intelephense)" class="md-nav__link">
-      PHP(intelephense)
+    <a href="../lsp-intelephense/" title="PHP (intelephense)" class="md-nav__link">
+      PHP (intelephense)
     </a>
   </li>
 
@@ -878,8 +1127,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../lsp-php/" title="PHP(felixbecker)" class="md-nav__link">
-      PHP(felixbecker)
+    <a href="../lsp-serenata/" title="PHP (Serenata)" class="md-nav__link">
+      PHP (Serenata)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lsp-php/" title="PHP (felixbecker)" class="md-nav__link">
+      PHP (felixbecker)
     </a>
   </li>
 
@@ -926,8 +1187,8 @@
 
 
   <li class="md-nav__item">
-    <a href="https://emacs-lsp.github.io/lsp-python-ms" title="Python(Microsoft)" class="md-nav__link">
-      Python(Microsoft)
+    <a href="https://emacs-lsp.github.io/lsp-python-ms" title="Python (Microsoft)" class="md-nav__link">
+      Python (Microsoft)
     </a>
   </li>
 
@@ -976,6 +1237,18 @@
   <li class="md-nav__item">
     <a href="../lsp-metals/" title="Scala" class="md-nav__link">
       Scala
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="https://emacs-lsp.github.io/lsp-sourcekit" title="Swift" class="md-nav__link">
+      Swift
     </a>
   </li>
 
@@ -1109,25 +1382,23 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7" checked>
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
-    <label class="md-nav__link" for="nav-7">
-      Features
+    <label class="md-nav__link" for="nav-3">
+      Debugging
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
-    <nav class="md-nav" aria-label="Features" data-md-level="1">
-      <label class="md-nav__title" for="nav-7">
+    <nav class="md-nav" aria-label="Debugging" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
-        Features
+        Debugging
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -1136,112 +1407,10 @@
           
           
 
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Features
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
-        </span>
-      </label>
-    
-    <a href="./" title="Features" class="md-nav__link md-nav__link--active">
-      Features
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#integrations" class="md-nav__link">
-    Integrations
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-    
-  </li>
-
-        
-          
-          
-          
-
 
   <li class="md-nav__item">
-    <a href="https://emacs-lsp.github.io/dap-mode" title="Debugging" class="md-nav__link">
-      Debugging
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="https://emacs-lsp.github.io/lsp-ui" title="UI" class="md-nav__link">
-      UI
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="https://github.com/emacs-lsp/lsp-treemacs" title="Treemacs" class="md-nav__link">
-      Treemacs
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="https://github.com/emacs-lsp/helm-lsp" title="Helm" class="md-nav__link">
-      Helm
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="https://github.com/emacs-lsp/lsp-ivy" title="Ivy" class="md-nav__link">
-      Ivy
+    <a href="https://emacs-lsp.github.io/dap-mode" title="None" class="md-nav__link">
+      None
     </a>
   </li>
 
@@ -1258,16 +1427,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
-    <label class="md-nav__link" for="nav-8">
+    <label class="md-nav__link" for="nav-4">
       Gallery
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Gallery" data-md-level="1">
-      <label class="md-nav__title" for="nav-8">
+      <label class="md-nav__title" for="nav-4">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -1300,16 +1469,16 @@
 
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
-    <label class="md-nav__link" for="nav-9">
+    <label class="md-nav__link" for="nav-5">
       Changelog
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Changelog" data-md-level="1">
-      <label class="md-nav__title" for="nav-9">
+      <label class="md-nav__title" for="nav-5">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -1361,8 +1530,42 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#integrations" class="md-nav__link">
-    Integrations
+  <a href="#tramp" class="md-nav__link">
+    TRAMP
+  </a>
+  
+    <nav class="md-nav" aria-label="TRAMP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-does-it-work" class="md-nav__link">
+    How does it work?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sample-configuration" class="md-nav__link">
+    Sample configuration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dealing-with-stderr" class="md-nav__link">
+    Dealing with stderr
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#docker" class="md-nav__link">
+    Docker
   </a>
   
 </li>
@@ -1379,7 +1582,7 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/emacs-lsp/lsp-mode/edit/master/docs/page/features.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/emacs-lsp/lsp-mode/edit/master/docs/page/remote.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
@@ -1387,18 +1590,28 @@
                   
                 
                 
-                <h1 id="features">Features<a class="headerlink" href="#features" title="Permanent link">#</a></h1>
-<p><code>lsp-mode</code> include multiples features and integrations to Emacs:</p>
+                <h1 id="remote">Remote<a class="headerlink" href="#remote" title="Permanent link">#</a></h1>
+<h2 id="tramp">TRAMP<a class="headerlink" href="#tramp" title="Permanent link">#</a></h2>
+<p>LSP mode has support for tramp buffers with the following requirements:</p>
 <ul>
-<li><a href="https://emacs-lsp.github.io/dap-mode">Debugging</a></li>
-<li><a href="https://emacs-lsp.github.io/lsp-ui">UI</a></li>
+<li>The language server has to be present on the remote server.</li>
+<li>Having multi folder language server (like <a href="https://github.com/eclipse/eclipse.jdt.ls">Eclipse JDT LS</a>) cannot have local and remote workspace folders.</li>
 </ul>
-<h2 id="integrations">Integrations<a class="headerlink" href="#integrations" title="Permanent link">#</a></h2>
-<ul>
-<li><a href="https://github.com/emacs-lsp/lsp-treemacs">Treemacs</a></li>
-<li><a href="https://github.com/emacs-lsp/helm-lsp">Helm</a></li>
-<li><a href="https://github.com/emacs-lsp/lsp-ivy">Ivy</a></li>
-</ul>
+<h3 id="how-does-it-work">How does it work?<a class="headerlink" href="#how-does-it-work" title="Permanent link">#</a></h3>
+<p><code>lsp-mode</code> detects whether a particular file is located on remote machine and looks for a client which matches current file and it is marked as <code>:remote?</code> t. Then <code>lsp-mode</code> starts the client through tramp.</p>
+<h3 id="sample-configuration">Sample configuration<a class="headerlink" href="#sample-configuration" title="Permanent link">#</a></h3>
+<p>Here it is example how you can configure python language server to work when using <code>TRAMP</code>. Note that if you are trying to convert existing language server configuration you should copy all of it's properties(e. g. <code>:request-handlers</code>, <code>activation-fn</code>, etc).</p>
+<div class="highlight"><pre><span></span><code><span class="p">(</span><span class="nv">lsp-register-client</span>
+    <span class="p">(</span><span class="nv">make-lsp-client</span> <span class="nb">:new-connection</span> <span class="p">(</span><span class="nv">lsp-tramp-connection</span> <span class="s">&quot;&lt;insert your LS&#39;s binary name or path here&gt;&quot;</span><span class="p">)</span>
+                     <span class="nb">:major-modes</span> <span class="o">&#39;</span><span class="p">(</span><span class="nv">python-mode</span><span class="p">)</span>
+                     <span class="nb">:remote?</span> <span class="no">t</span>
+                     <span class="nb">:server-id</span> <span class="ss">&#39;pyls-remote</span><span class="p">))</span>
+</code></pre></div>
+
+<h3 id="dealing-with-stderr">Dealing with stderr<a class="headerlink" href="#dealing-with-stderr" title="Permanent link">#</a></h3>
+<p>With TRAMP, Emacs does not have an easy way to distinguish stdout and stderr, so when the underlying LSP process writes to stderr, it breaks the <code>lsp-mode</code> parser. As a workaround, <code>lsp-mode</code> is redirecting stderr to <code>/tmp/&lt;process-name&gt;-&lt;id&gt;~stderr</code>.</p>
+<h2 id="docker">Docker<a class="headerlink" href="#docker" title="Permanent link">#</a></h2>
+<p>Refer to <a href="https://github.com/emacs-lsp/lsp-docker/">lsp-docker</a> README which provides a guide on how you can run <code>lsp-mode</code> in <code>docker</code> container.</p>
                 
                   
                     
@@ -1407,7 +1620,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: May 5, 2020
+      Last update: May 24, 2020
     
   </small>
 </div>
@@ -1430,7 +1643,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../lsp-yaml/" title="YAML" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../keybindings/" title="Keybindings" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
@@ -1439,19 +1652,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                YAML
+                Keybindings
               </div>
             </div>
           </a>
         
         
-          <a href="../gallery/" title="Gallery" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../faq/" title="FAQ" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Gallery
+                FAQ
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
@@ -1509,15 +1722,15 @@
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.83fe6e3c.min.js"></script>
-      <script src="../../assets/javascripts/bundle.7e1cb91c.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.d710d30a.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5f27aba8.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: ["tabs"],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.37585f48.min.js"
+            worker: "../../assets/javascripts/worker/search.27c6a5e6.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>

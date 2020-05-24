@@ -50,16 +50,6 @@
     "debugger": "Yes (gdb or lldb)"
   },
   {
-    "name": "cquery",
-    "full-name": "C++",
-    "server-name": "cquery",
-    "server-url": "https://github.com/cquery-project/cquery",
-    "client-url": "https://github.com/cquery-project/emacs-cquery",
-    "client-name": "emacs-cquery",
-    "installation-url": "https://github.com/cquery-project/cquery",
-    "debugger": "Yes (gdb or lldb)"
-  },
-  {
     "name": "clojure",
     "full-name": "Clojure",
     "server-name": "clojure-lsp",
@@ -113,14 +103,6 @@
     "server-name": "elixir-lsp/elixir-ls",
     "server-url": "https://github.com/elixir-lsp/elixir-ls",
     "installation-url": "https://github.com/elixir-lsp/elixir-ls",
-    "debugger": "Yes"
-  },
-  {
-    "name": "elixir-ls",
-    "full-name": "Elixir",
-    "server-name": "elixir-ls",
-    "server-url": "https://github.com/JakeBecker/elixir-ls",
-    "installation-url": "https://github.com/JakeBecker/elixir-ls",
     "debugger": "Yes"
   },
   {
@@ -213,18 +195,18 @@
   },
   {
     "name": "typescript",
-    "full-name": "JavaScript/TypeScript",
-    "server-name": "javascript-typescript-stdio",
+    "full-name": "JavaScript/TypeScript (theia-ide)",
+    "server-name": "typescript-language-server (recommended)",
     "server-url": "https://github.com/theia-ide/typescript-language-server",
-    "installation": "npm i -g javascript-typescript-langserver",
+    "installation": "npm i -g typescript-language-server; npm i -g typescript",
     "debugger": "Yes (Firefox/Chrome)"
   },
   {
     "name": "typescript-javascript",
-    "full-name": "JavaScript/TypeScript",
-    "server-name": "typescript-language-server (recommended)",
+    "full-name": "JavaScript/TypeScript (sourcegraph)",
+    "server-name": "javascript-typescript-stdio",
     "server-url": "https://github.com/sourcegraph/javascript-typescript-langserver",
-    "installation": "npm i -g typescript-language-server; npm i -g typescript",
+    "installation": "npm i -g javascript-typescript-langserver",
     "debugger": "Yes (Firefox/Chrome)"
   },
   {
@@ -362,6 +344,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "serenata",
+    "full-name": "PHP (Serenata)",
+    "server-name": "Serenata",
+    "server-url": "https://gitlab.com/Serenata/Serenata",
+    "installation-url": "https://gitlab.com/Serenata/Serenata/-/releases",
+    "debugger": "Yes"
+  },
+  {
     "name": "solargraph",
     "full-name": "Ruby",
     "server-name": "solargraph",
@@ -408,7 +398,7 @@
     "server-url": "https://github.com/latex-lsp/texlab",
     "client-name": "lsp-latex",
     "client-url": "https://github.com/ROCKTAKEY/lsp-latex",
-    "installation": "cargo install –git https://github.com/latex-lsp/texlab.git",
+    "installation": "cargo install --git https://github.com/latex-lsp/texlab.git",
     "debugger": "Not available"
   },
   {
@@ -424,7 +414,7 @@
     "full-name": "TeX, LaTeX, etc.",
     "server-name": "texlab",
     "server-url": "https://github.com/latex-lsp/texlab",
-    "installation": "cargo install –git https://github.com/latex-lsp/texlab.git",
+    "installation": "cargo install --git https://github.com/latex-lsp/texlab.git",
     "debugger": "Not available"
   },
   {
@@ -432,7 +422,7 @@
     "full-name": "Verilog/SystemVerilog",
     "server-name": "hdl_checker",
     "server-url": "https://github.com/suoto/hdl_checker",
-    "installation": "pip install hdl-checker –upgrade",
+    "installation": "pip install hdl-checker --upgrade",
     "debugger": "Not available"
   },
   {
